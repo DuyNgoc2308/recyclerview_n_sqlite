@@ -13,11 +13,11 @@
             android:parentActivityName="com.recyclerview_n_sqlite.example.sqlitetutorial.MainActivity"/>
         <activity
             android:name="com.recyclerview_n_sqlite.example.sqlitetutorial.AddActivity"
-            android:label="Add Book"
+            android:label="New book"
             android:parentActivityName="com.recyclerview_n_sqlite.example.sqlitetutorial.MainActivity" />
         <activity
             android:name="com.recyclerview_n_sqlite.example.sqlitetutorial.MainActivity"
-            android:label="Book Library">
+            android:label="My store">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
